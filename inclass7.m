@@ -18,11 +18,11 @@ colon, small intestine.
 
 %2. A. Use the unigene database to find the accession number for a genbank
 % entry containing the complete coding sequence of Cdx2. 
-%NM_001256.5
+%NM_001265.5
 
 % B. Use MATLAB to read the genbank information corresponding to that
 % accession number. 
-cdx2=getgenbank('NM_001256.5')
+cdx2=getgenbank('NM_001265.5')
 
 % C. Use the information read in to find the position of the start and stop
 % codon within the sequence. What are the parts of the sequence before the start codon 
